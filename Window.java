@@ -32,7 +32,7 @@ public class Window extends JFrame {
         g.setColor(new Color(66, 43, 64, 255));
         g.drawLine(-getWidth()/2, 0, getWidth()/2, 0);
         g.drawLine(0, -getHeight()/2, 0, getHeight()/2);
-        g.setColor(new Color(0, 0, 0));
+        g.setColor(new Color(135, 0, 30));
         c.draw(g);
 
 
