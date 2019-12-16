@@ -6,7 +6,7 @@ public class Window extends JFrame {
 
 
     Window(Convex c) {
-        setSize(800,800);
+        setSize(600,600);
         setVisible(true);
         setTitle("Figures");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -25,14 +25,14 @@ public class Window extends JFrame {
         g.fillRect(-getWidth()/2, -getHeight()/2, getWidth(), getHeight());
         Color pColor = new Color(163, 159, 196);
         g.setColor(pColor);
-        g.setColor(new Color(75, 88, 88, 174));
+        g.setColor(new Color(212, 147, 186, 174));
         g.fillOval(-Polygon.l1/5, -Polygon.l1/5, Polygon.l1*2/5, Polygon.l1*2/5);
         g.setColor(new Color(244, 255, 248, 255));
         g.fillOval (-l1/2, -l1/2, l1, l1);
-        g.setColor(new Color(66, 43, 64, 255));
+        g.setColor(new Color(163, 159, 196, 255));
         g.drawLine(-getWidth()/2, 0, getWidth()/2, 0);
         g.drawLine(0, -getHeight()/2, 0, getHeight()/2);
-        g.setColor(new Color(135, 0, 30));
+        g.setColor(new Color(155, 0, 5));
         c.draw(g);
 
 
